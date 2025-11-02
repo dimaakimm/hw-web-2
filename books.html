@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Книги</title>
+  <script type="module" crossorigin src="/hw-web-2/assets/books-BsVX0Y0t.js"></script>
+  <link rel="modulepreload" crossorigin href="/hw-web-2/assets/global-DDRV_GHX.js">
+  <link rel="stylesheet" crossorigin href="/hw-web-2/assets/global-BocBKovu.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="title">Книги</div>
+    <nav class="tabs">
+      <a class="tab" href="./jobs.html">Работа</a>
+      <a class="tab active" href="./books.html">Книги</a>
+      <a class="tab" href="./movies.html">Фильмы</a>
+    </nav>
+  </div>
+  <div class="panel">
+    <form id="book-form" class="search">
+      <input id="book-q" class="input" placeholder="Автор, название или тема">
+      <button class="button" type="submit">Искать</button>
+    </form>
+    <div id="book-loader" class="loader">Загрузка...</div>
+    <div id="book-results" class="grid"></div>
+    <div id="book-empty" class="empty"></div>
+    <div class="footer">Источник: Google Books API</div>
+  </div>
+</div>
+</body>
+</html>
