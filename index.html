@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Redirect</title>
+  <meta http-equiv="refresh" content="0;url=jobs.html">
+  <link rel="stylesheet" href="/src/common.css">
+</head>
+<body>
+<script type="module">
+  const base = import.meta.env.BASE_URL || '/'
+  const url = base.replace(/\/+$/,'/') + 'jobs.html'
+  if (location.pathname + location.search + location.hash !== url) location.replace(url)
+</script>
+</body>
+</html>
