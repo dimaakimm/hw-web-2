@@ -1,3 +1,5 @@
+import "./global.css";
+
 const form = document.getElementById("job-form");
 const input = document.getElementById("job-q");
 const results = document.getElementById("job-results");

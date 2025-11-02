@@ -1,3 +1,4 @@
+import "./global.css";
 const form = document.getElementById("movie-form");
 const input = document.getElementById("movie-q");
 const results = document.getElementById("movie-results");

@@ -1,3 +1,4 @@
+import "./global.css";
 const form = document.getElementById("book-form");
 const input = document.getElementById("book-q");
 const results = document.getElementById("book-results");
