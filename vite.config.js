@@ -9,6 +9,7 @@ export default defineConfig({
         jobs: "jobs.html",
         books: "books.html",
         movies: "movies.html",
+        index: "index.html",
       },
     },
   },
