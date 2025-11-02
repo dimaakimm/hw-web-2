@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/",
+  base: "/hw-web-2/",
   build: {
     outDir: "dist",
     rollupOptions: {
