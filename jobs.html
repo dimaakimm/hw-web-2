@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Поиск работы</title>
+  <link rel="stylesheet" href="/src/global.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="title">Поиск работы</div>
+    <nav class="tabs">
+      <a class="tab active" href="./jobs.html">Работа</a>
+      <a class="tab" href="./books.html">Книги</a>
+      <a class="tab" href="./movies.html">Фильмы</a>
+    </nav>
+  </div>
+  <div class="panel">
+    <form id="job-form" class="search">
+      <input id="job-q" class="input" placeholder="Например: frontend, react, designer">
+      <button class="button" type="submit">Искать</button>
+    </form>
+    <div id="job-loader" class="loader">Загрузка...</div>
+    <div id="job-results" class="grid"></div>
+    <div id="job-empty" class="empty"></div>
+    <div class="footer">Источник: Remotive Jobs API</div>
+  </div>
+</div>
+<script type="module" src="/src/jobs.js"></script>
+</body>
+</html>

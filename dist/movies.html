@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Фильмы</title>
+  <script type="module" crossorigin src="/assets/movies-ANQB70yS.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/global-DDRV_GHX.js">
+  <link rel="stylesheet" crossorigin href="/assets/global-BocBKovu.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="title">Фильмы</div>
+    <nav class="tabs">
+      <a class="tab" href="./jobs.html">Работа</a>
+      <a class="tab" href="./books.html">Книги</a>
+      <a class="tab active" href="./movies.html">Фильмы</a>
+    </nav>
+  </div>
+  <div class="panel">
+    <form id="movie-form" class="search">
+      <input id="movie-q" class="input" placeholder="Поиск по названию">
+      <button class="button" type="submit">Искать</button>
+    </form>
+    <div id="movie-loader" class="loader">Загрузка...</div>
+    <div id="movie-results" class="grid"></div>
+    <div id="movie-empty" class="empty"></div>
+    <div class="footer">Источник: Studio Ghibli API</div>
+  </div>
+</div>
+</body>
+</html>
